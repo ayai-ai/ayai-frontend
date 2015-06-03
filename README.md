@@ -58,6 +58,8 @@ Game: http://192.168.100.10/debug.html
 
 Note that to play the game, you must run the Scala server as well (see the [ayai-backend](https://github.com/ayaigame/ayai-backend) repository).
 
+If you look in `run.py` and `run-windows.py`, you can see that they are just simple Python scripts to serve static files locally on a certain port. If you prefer a different program to do that, such as [`http-server`](https://www.npmjs.com/package/http-server), it should work too.
+
 ###Windows
 ```
 git clone https://github.com/ayaigame/ayai-frontend.git
